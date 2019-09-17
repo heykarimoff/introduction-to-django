@@ -1,2 +1,2 @@
 # introduction-to-django
-Intruductory course to learning Django with simple todo application.
+Introductory course to learning Django with simple "Todo" application.
