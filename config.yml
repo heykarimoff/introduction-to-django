@@ -1,0 +1,17 @@
+title: Introduction to Django
+tagline: A brand new course on Learning Lab
+description: Intruductory course to learning Django with simple todo application.
+template:
+  repo: introduction-to-django-template
+  name: introduction-to-django
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
